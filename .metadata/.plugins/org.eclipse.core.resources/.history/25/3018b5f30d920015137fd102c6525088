@@ -1,0 +1,11 @@
+
+public class Solution {
+public String CutAEIOU(String s){
+	StringBuffer sb= new StringBuffer();
+	String comp="aeiouAEIOU";
+	for(int i=0;i<s.length();i++){
+		if(comp.indexof(s.charAt(i))<0) sb.append(s.charAt(i));
+	}
+	return sb.toString();
+}
+}

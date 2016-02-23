@@ -1,0 +1,7 @@
+
+public class Solution {
+public String CutAEIOU(String s){
+	StringBuffer Sb= new StringBuffer();
+	
+}
+}
