@@ -6267,3 +6267,27 @@ Binding(ALT+SHIFT+D R,
 
 !ENTRY org.eclipse.ui 4 4 2016-02-25 11:01:32.501
 !MESSAGE Conflicting handlers for org.eclipse.ui.file.print: {ActionHandler(org.eclipse.ui.texteditor.TextOperationAction@1963b057)} vs {ActionHandler(org.eclipse.ui.texteditor.AbstractDecoratedTextEditor$12@5426f313)}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-25 12:44:44.045
+!MESSAGE Conflicting handlers for org.eclipse.ui.file.print: {ActionHandler(org.eclipse.ui.texteditor.AbstractDecoratedTextEditor$12@6366e6b)} vs {ActionHandler(org.eclipse.ui.texteditor.TextOperationAction@3ce376d7)}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-25 12:44:44.048
+!MESSAGE Conflicting handlers for org.eclipse.ui.file.print: {ActionHandler(org.eclipse.ui.texteditor.AbstractDecoratedTextEditor$12@6366e6b)} vs {ActionHandler(org.eclipse.ui.texteditor.TextOperationAction@3ce376d7)}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-25 12:44:47.340
+!MESSAGE Conflicting handlers for org.eclipse.ui.file.print: {ActionHandler(org.eclipse.ui.texteditor.AbstractDecoratedTextEditor$12@54340e98)} vs {ActionHandler(org.eclipse.ui.texteditor.TextOperationAction@469390f)}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-25 12:44:51.134
+!MESSAGE Conflicting handlers for org.eclipse.ui.file.print: {ActionHandler(org.eclipse.ui.texteditor.AbstractDecoratedTextEditor$12@6366e6b)} vs {ActionHandler(org.eclipse.ui.texteditor.TextOperationAction@3ce376d7)}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-25 12:54:21.851
+!MESSAGE Conflicting handlers for org.eclipse.ui.file.print: {ActionHandler(org.eclipse.ui.texteditor.AbstractDecoratedTextEditor$12@54340e98)} vs {ActionHandler(org.eclipse.ui.texteditor.TextOperationAction@469390f)}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-25 12:56:00.093
+!MESSAGE Conflicting handlers for org.eclipse.ui.file.print: {ActionHandler(org.eclipse.ui.texteditor.AbstractDecoratedTextEditor$12@6366e6b)} vs {ActionHandler(org.eclipse.ui.texteditor.TextOperationAction@3ce376d7)}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-25 12:57:13.515
+!MESSAGE Conflicting handlers for org.eclipse.ui.file.print: {ActionHandler(org.eclipse.ui.texteditor.TextOperationAction@2f0b7c3c)} vs {ActionHandler(org.eclipse.ui.texteditor.AbstractDecoratedTextEditor$12@1e7c5452)}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-25 12:57:13.517
+!MESSAGE Conflicting handlers for org.eclipse.ui.file.print: {ActionHandler(org.eclipse.ui.texteditor.TextOperationAction@2f0b7c3c)} vs {ActionHandler(org.eclipse.ui.texteditor.AbstractDecoratedTextEditor$12@1e7c5452)}
