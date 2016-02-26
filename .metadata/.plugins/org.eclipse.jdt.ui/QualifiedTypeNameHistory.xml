@@ -8,7 +8,6 @@
 <fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="edu.princeton.cs.algs4.Bag"/>
 <fullyQualifiedTypeName name="LPS.DPSolution"/>
-<fullyQualifiedTypeName name="java.util.LinkedList"/>
 <fullyQualifiedTypeName name="java.util.PriorityQueue"/>
 <fullyQualifiedTypeName name="java.util.Comparator"/>
 <fullyQualifiedTypeName name="java.util.Arrays"/>
@@ -20,4 +19,5 @@
 <fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="reverseLinkedList2.utility"/>
 <fullyQualifiedTypeName name="isPowerOfThree.isPowerOfThree"/>
+<fullyQualifiedTypeName name="java.util.LinkedList"/>
 </qualifiedTypeNameHistroy>
