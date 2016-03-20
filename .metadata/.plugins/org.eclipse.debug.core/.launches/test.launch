@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
-<listEntry value="/testlist/src/testlist/test.java"/>
+<listEntry value="/Reconstruct Itinerary/src/Test.java"/>
 </listAttribute>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
 <listEntry value="1"/>
 </listAttribute>
-<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="testlist.test"/>
-<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="testlist"/>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="Test"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="Reconstruct Itinerary"/>
 </launchConfiguration>

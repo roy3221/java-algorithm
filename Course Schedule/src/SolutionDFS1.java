@@ -32,7 +32,7 @@ public class SolutionDFS1 {
 	        return true;
 	    }
 	    
-	    // use dfs manner to iterat
+	    // use dfs manner to iterate
 	    private boolean hasBackEdge(int courseNode) {
 
 	        if (visited.contains(courseNode)){

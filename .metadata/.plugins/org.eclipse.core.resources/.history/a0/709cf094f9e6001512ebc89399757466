@@ -1,0 +1,11 @@
+import java.util.ArrayList;
+
+
+public class test {
+	public static void main(String args[]){
+		UndirectedGraphNode node = new UndirectedGraphNode(0);
+		Solution test = new Solution();
+		test.cloneGraph (node);
+	}
+	
+}
