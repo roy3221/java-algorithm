@@ -2,22 +2,26 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="n2" key="selection"/>
+		<item value="n" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="grid[0].length"/>
+			<item value="grid.length"/>
+			<item value="]"/>
+			<item value="["/>
 			<item value="n2"/>
 			<item value="n1"/>
 			<item value="reverse"/>
 			<item value="value"/>
-			<item value="excess"/>
-			<item value="G.adj(v)"/>
-			<item value="edgeTo"/>
-			<item value="FlowEdge"/>
 		</list>
 		<list key="replacehistory">
+			<item value="n"/>
+			<item value="m"/>
+			<item value="}"/>
+			<item value="{"/>
 			<item value="l2"/>
 			<item value="l1"/>
 			<item value="new char[3]"/>
