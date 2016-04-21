@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
-<listEntry value="/reverseInteger/src/reverseInteger/Solution.java"/>
+<listEntry value="/countPalindrome/src/countPalindrome/Solution.java"/>
 </listAttribute>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
 <listEntry value="1"/>
 </listAttribute>
-<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="reverseInteger.Solution"/>
-<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="reverseInteger"/>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="countPalindrome.Solution"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="countPalindrome"/>
 </launchConfiguration>
