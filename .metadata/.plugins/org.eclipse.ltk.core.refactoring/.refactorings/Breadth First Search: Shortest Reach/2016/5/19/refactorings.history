@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring clone="true" comment="Infer generic type arguments on &apos;Breadth First Search: Shortest Reach&apos;&#x0A;- Original project: &apos;Breadth First Search: Shortest Reach&apos;&#x0A;- Original elements:&#x0A;     Solution.java&#x0A;- Assume clone() returns an instance of the receiver type&#x0A;- Leave unconstrained type arguments raw" description="Infer generic type arguments" element1="/src&lt;{Solution.java" flags="6" id="org.eclipse.jdt.ui.infer.typearguments" leave="true" stamp="1462088098335" version="1.0"/>
+</session>
