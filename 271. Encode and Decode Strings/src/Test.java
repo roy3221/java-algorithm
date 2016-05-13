@@ -1,0 +1,14 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class Test {
+	public static void main(String args[]){
+		Solution test = new Solution();
+		List<String> list = new ArrayList<String>();
+		list.add("1");
+		String code = test.encode(list);
+		List<String> decode = test.decode(code);
+		System.out.println(decode.toString());
+	}
+
+}

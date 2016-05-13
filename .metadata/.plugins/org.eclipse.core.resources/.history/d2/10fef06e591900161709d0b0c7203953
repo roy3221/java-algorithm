@@ -1,0 +1,31 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class Solution {
+	
+	//Encodes a list of strings to a single string.
+    public String encode(List<String> strs) {
+       StringBuilder sb = new StringBuilder();
+        for(String s : strs) {
+            sb.append(s.length()).append('/').append(s);
+        }
+        return sb.toString();
+    }
+
+    // Decodes a single string to a list of strings.
+    public List<String> decode(String s) {
+        int i = 0;
+        List<String> decoded = new ArrayList<>();
+        System.out.println(s);
+        while(i < s.length()) {
+        	System.out.println(i);
+            int len = Integer.valueOf(s.charAt(i));
+            if(len == 2) i +=2;
+            else{
+                 decoded.add(s.substring(i+2, i+len+1));
+                 i += len+1;
+            }
+        }
+        return decoded;
+    }
+}

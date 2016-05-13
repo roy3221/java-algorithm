@@ -1,0 +1,46 @@
+import java.util.Arrays;
+
+public class Solution {
+	
+	 final static int INF = 2147483647;
+	    static boolean[][] visited;
+	    
+	    public static void wallsAndGates(int[][] rooms) {
+	        visited = new boolean[rooms.length][rooms[0].length];
+	        for(int i = 0; i < rooms.length; i++) {
+	            for(int j = 0; j < rooms[0].length; j++) {
+	                if(rooms[i][j] == INF){
+	                    System.out.println(Arrays.deepToString(visited));
+	                    rooms[i][j] = getDistance(rooms, i, j, 0, rooms[i][j], visited);
+	                }
+	            }
+	        }
+	    }
+	    
+	    private static int getDistance(int[][] rooms, int i, int j, int distance, int shortest, boolean[][] visited) {
+	        System.out.println("i = "+i+"; j= "+j);
+	        int curShort = shortest;
+	        if(i < 0 || i >= rooms.length || j < 0 || j >= rooms[0].length || rooms[i][j] == -1 || visited[i][j]) {
+	            return INF;
+	        }
+	        visited[i][j] = true;
+	        if(rooms[i][j] == 0){
+	            return distance;
+	        }
+	        System.out.println("shortest = "+ shortest);
+	        System.out.println("distance = "+ distance);
+	        // getDistance(rooms, i+1, j, distance+1, shortest,visited);
+	        // getDistance(rooms, i-1, j, distance+1, shortest,visited);
+	        // getDistance(rooms, i, j+1, distance+1, shortest,visited);
+	        // getDistance(rooms, i, j-1, distance+1, shortest,visited);
+	        int result = Math.min(Math.min(getDistance(rooms, i+1, j, distance+1, shortest,visited),getDistance(rooms, i-1, j, distance+1, shortest,visited)),Math.min(getDistance(rooms, i, j+1, distance+1, shortest,visited),getDistance(rooms, i, j-1, distance+1, shortest,visited)));
+	        visited[i][j] = false;
+	        return result;
+	    }
+	    
+	    public static void main(String args[]) {
+	    	int[][] rooms = {{2147483647,-1,0,2147483647},{2147483647,2147483647,2147483647,-1},{2147483647,-1,2147483647,-1},{0,-1,2147483647,2147483647}};
+	    	System.out.println(Arrays.deepToString(rooms));
+	    	wallsAndGates(rooms);
+	    }
+}

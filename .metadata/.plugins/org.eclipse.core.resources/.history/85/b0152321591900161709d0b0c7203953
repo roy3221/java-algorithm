@@ -1,0 +1,12 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class Test {
+	public static void main(String args[]){
+		Solution test = new Solution();
+		String code = test.encode(new ArrayList<String>());
+		List<String> decode = test.decode(code);
+		System.out.println(decode.toString());
+	}
+
+}
